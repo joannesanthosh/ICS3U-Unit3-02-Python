@@ -17,7 +17,7 @@ def main():
     # process & output
     if user_guess != constants.GUESSING_NUMBER:
         print("Your guess is incorrect. Try again!")
-    
+
     if user_guess == constants.GUESSING_NUMBER:
         print("Your guess is correct!")
 
